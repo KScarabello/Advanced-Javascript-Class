@@ -153,7 +153,25 @@ Anonymous function expression vs named function expression:
    1. handy self-reference that can refer to itself from the inside
    2. more debuggable stack traces (Chrome debugger
    tools will you the function name, not just 'anonymous')
-   3.
+   3. more self-documenting code (helps our future selves to know what's going on)
+
+todo comments - leave comment in the code called to do,
+                search todo and you will find it and complete
+                the task
+
+Readability vs. quickness 
+-Kyle Simpson believes there is a conflict between
+  writing readable code and writing quick code with few characters
+   
+
+-If you have a variable that you wish to preserve,
+create a function around it - it's lexical scope protects it
+
+IIFE - Immediately-invoked function expression
+when a function identifier is used then invoked
+--
+
+
 
 
 
